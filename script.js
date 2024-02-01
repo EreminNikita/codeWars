@@ -52,7 +52,7 @@ arrFix([1, 7]); */
     console.log(x.map(n => n * 2));
   }
 
-maps([1, 2,10,50]) */
+maps([1, 2, 10, 50]) */
 
 
 // !8
@@ -67,3 +67,48 @@ maps([1, 2,10,50]) */
     }
   }
   problem(10) */
+
+// !8
+
+/* function peopleWithAgeDrink(old) {
+    if (old < 14) {
+        console.log('Kids drink toddy');
+    }
+    else if (old >= 14 && old < 18) {
+        console.log('Teens drink coke');
+    }
+    else if (old >= 18 && old < 21) {
+        console.log('Young adults drink beer');
+    }
+    else if (old >= 21) {
+        console.log('Adults drink whisky');
+    }
+};
+peopleWithAgeDrink(17) */
+
+// !8
+
+/* function countPositivesSumNegatives(arr) {
+    if (!arr || arr.length === 0) {
+        return [];
+    }
+
+    let countPositives = 0;
+    let sumNegatives = 0;
+
+    for (let num of arr) {
+        if (num > 0) {
+            countPositives++;
+        }
+        else if (num < 0) {
+            sumNegatives += num;
+        }
+    }
+
+    console.log([countPositives, sumNegatives]);
+}
+
+countPositivesSumNegatives([1, 2, 3, 4, -1, -3]) */
+
+// !8
+
