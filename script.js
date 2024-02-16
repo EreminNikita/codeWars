@@ -7,7 +7,6 @@
 
 // ! 8
 
-
 /* function reverseList(list) {
 
     console.log(list.reverse());
@@ -68,6 +67,7 @@ maps([1, 2, 10, 50]) */
   }
   problem(10) */
 
+
 // !8
 
 /* function peopleWithAgeDrink(old) {
@@ -85,6 +85,7 @@ maps([1, 2, 10, 50]) */
     }
 };
 peopleWithAgeDrink(17) */
+
 
 // !8
 
@@ -110,5 +111,41 @@ peopleWithAgeDrink(17) */
 
 countPositivesSumNegatives([1, 2, 3, 4, -1, -3]) */
 
+
 // !8
 
+/* var number = function (array) {
+    console.log(array.map((value, index) => `${index + 1}: ${value}`));
+}
+
+number(['str1', 'str2', 'str3']) */
+
+
+// !8
+
+/* function addUp(num) {
+    let sum = 0;
+    let i = 1;
+    while (i <= num) {
+        sum += i;
+        i++;
+    }
+    console.log("Сумма арифметической прогрессии:", sum);
+}
+
+addUp(5) */
+
+
+// !8
+
+function countTrue(arr) {
+    var count = 0;
+    for (var i = 0; i < arr.length; i++) {
+        if (arr[i] === true) {
+            count++;
+        }
+    }
+    console.log(count);
+}
+
+countTrue([true,false,true,true])
