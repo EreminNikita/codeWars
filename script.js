@@ -138,7 +138,7 @@ addUp(5) */
 
 // !8
 
-function countTrue(arr) {
+/* function countTrue(arr) {
     var count = 0;
     for (var i = 0; i < arr.length; i++) {
         if (arr[i] === true) {
@@ -148,4 +148,20 @@ function countTrue(arr) {
     console.log(count);
 }
 
-countTrue([true,false,true,true])
+countTrue([true,false,true,true]) */
+
+
+// !8
+
+/* function findNeedle(arr) {
+    var index;
+    for (var i = 0; i < arr.length; i++) {
+        if (arr[i] === 2) {
+            index = i;
+            console.log(`элемент найден на позиции ${index}`);
+            break;
+        }
+    }
+}
+
+findNeedle([1, 2, 3, 4, 5]) */
