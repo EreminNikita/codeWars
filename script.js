@@ -35,7 +35,7 @@ reverseList([1, 'test', true]); */
 
 }
 
-arrFix([1, 7]); */
+arrFix([1,4]); */
 
 
 // !8
@@ -165,3 +165,102 @@ countTrue([true,false,true,true]) */
 }
 
 findNeedle([1, 2, 3, 4, 5]) */
+
+
+/* function findIndex(arr, target) {
+    for (let i = 0; i < arr.length; i++) {
+        if (arr[i] === target) {
+            return i;
+        }
+    }
+    return -1;
+}
+
+const position = findIndex([1, 2, 4, 5, 3], 3);
+console.log("Позиция элемента:", position); */
+
+
+// !8
+
+/* function friend(friends) {
+     console.log(friends.filter(s => s.length === 4));
+}
+
+friend([1,'Alex']); */
+
+
+// !8
+
+/* function friend(array) {
+    let res = []
+    for (itm of array) {
+        res.push(-itm)
+    }
+    console.log(res);
+}
+
+friend([1, -2, 3, 4, -5]) */
+
+
+// !8
+
+/* function between(a, b) {
+    const arrNew = [];
+    for (let i = a; i <= b; i++) {
+        arrNew.push(i);
+    }
+    return arrNew;
+}
+console.log(between(-3, 5)); */
+
+
+// !8
+
+/* function repeatString(n, s) {
+    let result = "";
+    for (let i = 0; i < n; i++) {
+        result = result + s;
+    }
+    return result;
+}
+
+console.log(repeatString(2, "I"));
+console.log(repeatString(5, "Hello")); */
+
+
+// !8
+
+/* function toCsvText(array) {
+    let x = array.map(row => row.join(',')).join('\n');
+    console.log(x);
+}
+
+toCsvText([[1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]]) */
+
+
+// !8
+
+/* function monkeyCount(n) {
+    let res = [];
+    for (let i = 1; i <= n; i++) {
+        res.push(i);
+    }
+    console.log(res);
+}
+
+monkeyCount(5); */
+
+
+// !8
+
+/* function grow(x) {
+    let res = 1;
+    for (let i = 0; i < x.length; i++) {
+        res = res * x[i]
+    }
+    console.log(res);
+}
+
+grow([1, 2, 3, 4]) */
