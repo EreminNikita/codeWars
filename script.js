@@ -35,7 +35,7 @@ reverseList([1, 'test', true]); */
 
 }
 
-arrFix([1,4]); */
+arrFix([1,4,9,15]); */
 
 
 // !8
@@ -263,4 +263,63 @@ monkeyCount(5); */
     console.log(res);
 }
 
-grow([1, 2, 3, 4]) */
+grow([1, 2, 3, 4,5]) */
+
+
+// !8 Counting true...
+
+/* function countSheeps(sheep) {
+    let count = 0;
+    for (elm of sheep) {
+        if (elm === true) {
+            count++;
+        }
+    }
+    console.log(count);
+}
+
+countSheeps([1, 'true', true, false, true, true, true]) */
+
+
+// !8 Well of Ideas...
+
+/* function well(x) {
+    let fail = 0;
+    let publish = 0;
+    for (let i = 0; i < x.length; i++) {
+        if (x[i] === 'bad') {
+            fail++;
+        }
+        else if (x[i] === 'good') {
+            publish++;
+        }
+    }
+
+    if (publish === 0) {
+        return 'Fail!';
+    } else if (publish <= 2) {
+        return 'Publish!';
+    } else {
+        return 'I smell a series!';
+    }
+
+    // return publish === 0 ? 'Fail!' : publish <= 2 ? 'Publish!' : 'I smell a series!';
+}
+
+well(['bad', 'bad', 'bad',])
+well(['good', 'good', 'good', 'str', 'goodstr']) */
+
+
+// !8 Find numbers which are divisible by given number...
+
+/* function divisibleBy(numbers, divisor) {
+let res = [];
+    for (num of numbers) {
+        if(num % divisor === 0) {
+            res.push(num)
+        }
+    }
+    console.log(res);
+}
+
+divisibleBy([1, 2, 3, 4, 5, 6], 2) */
