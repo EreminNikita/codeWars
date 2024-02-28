@@ -263,7 +263,7 @@ monkeyCount(5); */
     console.log(res);
 }
 
-grow([1, 2, 3, 4,5]) */
+grow([1, 2, 3, 4, 5]) */
 
 
 // !8 Counting true...
@@ -323,3 +323,14 @@ let res = [];
 }
 
 divisibleBy([1, 2, 3, 4, 5, 6], 2) */
+
+
+/* // !8 calculate the downward rounded average of the marks array
+
+function getAverage(marks) {
+    let sum = marks.reduce((accumulator, currentValue) => accumulator + currentValue, 0);
+    let res = Math.floor(sum / marks.length);
+    console.log(res);
+}
+
+getAverage([5, 5, 5, 4, 4]); */
