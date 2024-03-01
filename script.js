@@ -334,3 +334,21 @@ function getAverage(marks) {
 }
 
 getAverage([5, 5, 5, 4, 4]); */
+
+
+// !8 Sum Mixed Array...
+
+/* function sumMix(x) {
+    var res = 0;
+    for (el of x) {
+        if (typeof el === 'string') {
+            res += parseInt(el);
+        } else {
+            res += el;
+        }
+    }
+    console.log("Сумма: " + res);
+    console.log("Тип данных: " + typeof res);
+}
+
+sumMix(['7', 6, '8']); */
