@@ -325,9 +325,9 @@ let res = [];
 divisibleBy([1, 2, 3, 4, 5, 6], 2) */
 
 
-/* // !8 calculate the downward rounded average of the marks array
+// !8 calculate the downward rounded average of the marks array
 
-function getAverage(marks) {
+/* function getAverage(marks) {
     let sum = marks.reduce((accumulator, currentValue) => accumulator + currentValue, 0);
     let res = Math.floor(sum / marks.length);
     console.log(res);
@@ -352,3 +352,22 @@ getAverage([5, 5, 5, 4, 4]); */
 }
 
 sumMix(['7', 6, '8']); */
+
+
+// !8 Merging sorted integer arrays (without duplicates)...
+
+/* function mergeArrays(a, b) {
+    var comb = [...a, ...b];
+    var res = comb.sort((a, b) => a - b);
+
+
+    const uniqueArr = [];
+    for (let i = 0; i < res.length; i++) {
+        if (!uniqueArr.includes(res[i])) {
+            uniqueArr.push(res[i]);
+        }
+    }
+    console.log(uniqueArr);
+}
+
+mergeArrays([9, 8, 3, 1], [5, 3, 1]) */
