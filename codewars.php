@@ -24,8 +24,24 @@ evenOrOdd(5);*/
 }
 removeExclamationMarks('He!!o wor!d');*/
 
-//function sumArray($array) {
-//    echo array_sum($array)-max($array)-min($array);
-//}
-//
-//sumArray([1,2,5,10]);
+/* function sumArray($array) {
+    echo array_sum($array)-max($array)-min($array);
+}
+sumArray([1,2,5,10]); */
+
+/* $array = ["Eremin", "world", "!"];
+$result = implode(' ', $array);
+echo $result; */
+
+function strCount($str, $letter)
+{
+    for ($i = 0; $i < strlen($str); $i++) {
+        $count = $str[$i]. ' ';
+        if($str[$i] === 'k') {
+            // echo 'stop';
+            break;
+        }
+        echo( $count);
+    }
+}
+strCount('Nikita','');
