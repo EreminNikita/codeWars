@@ -33,15 +33,27 @@ sumArray([1,2,5,10]); */
 $result = implode(' ', $array);
 echo $result; */
 
-function strCount($str, $letter)
+/* function strCount($str, $letter)
 {
+    $count = 0;
     for ($i = 0; $i < strlen($str); $i++) {
-        $count = $str[$i]. ' ';
-        if($str[$i] === 'k') {
-            // echo 'stop';
-            break;
+        if ($str[$i] === $letter) {
+            $count++;
         }
-        echo( $count);
     }
+    echo ($count);
 }
-strCount('Nikita','');
+strCount('Nikitaaa', 'a'); */
+
+function isAllCapsLock($str)
+{
+    return preg_match('/^[A-Z]+$/', $str);
+}
+
+// Пример использования
+$string = "ALLCAPSLOCK";
+if (isAllCapsLock($string)) {
+    echo "Строка полностью в верхнем регистре (ALLCAPSLOCK)";
+} else {
+    echo "Строка содержит не только заглавные буквы или пустая";
+}
