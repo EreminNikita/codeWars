@@ -45,15 +45,20 @@ echo $result; */
 }
 strCount('Nikitaaa', 'a'); */
 
-function isAllCapsLock($str)
-{
-    return preg_match('/^[A-Z]+$/', $str);
-}
 
-// Пример использования
-$string = "ALLCAPSLOCK";
-if (isAllCapsLock($string)) {
-    echo "Строка полностью в верхнем регистре (ALLCAPSLOCK)";
-} else {
-    echo "Строка содержит не только заглавные буквы или пустая";
+
+/* function is_uppercase($str)
+{
+    $length = strlen($str);
+    for ($i = 0; $i < $length; $i++) {
+        if ($str[$i] !== strtoupper($str[$i])) {
+            echo 'false';
+            break;
+        } else {
+            echo 'true';
+            break;
+        }
+    }
 }
+is_uppercase('ZzzzzzZ'); */
+
