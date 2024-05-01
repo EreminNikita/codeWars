@@ -88,3 +88,19 @@ remove('!Hi!'); */
     return '$' . number_format($amount, 2, '.', ' ');
 }
 format_money(1139.9); */
+
+/* function greet($name)
+{
+    echo "Hello,  $name";
+}
+greet('World'); */
+
+function mouth_size($animal)
+{
+    if ($animal === 'alligator') {
+        return 'small';
+    } else {
+        return 'wide';
+    }
+}
+ echo(mouth_size('Alligator'));
