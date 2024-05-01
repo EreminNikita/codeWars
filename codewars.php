@@ -95,7 +95,7 @@ format_money(1139.9); */
 }
 greet('World'); */
 
-function mouth_size($animal)
+/* function mouth_size($animal)
 {
     if ($animal === 'alligator') {
         return 'small';
@@ -103,4 +103,4 @@ function mouth_size($animal)
         return 'wide';
     }
 }
- echo(mouth_size('Alligator'));
+ echo(mouth_size('Alligator')); */
