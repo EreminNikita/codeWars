@@ -172,7 +172,6 @@
 //         echo $s2 . $s1 . $s2;
 //     }
 // }
-
 // shortLongShort('22', '1');
 
 
@@ -189,9 +188,40 @@
 
 
 
-function abbrevName($name) {
-    $arrWord = explode(' ', $name);
+// function abbrevName($name) {
+//     $arrWord = explode(' ', $name);
 
-    echo strtoupper($arrWord[0][0] . '.' . $arrWord[1][0]);
-}
-abbrevName('er ni nn');
+//     echo strtoupper($arrWord[0][0] . '.' . $arrWord[1][0]);
+// }
+// abbrevName('er ni nn');
+
+
+
+// function reverseWords($str) {
+//     $revStr = '';
+//     for ($i = strlen($str) - 1; $i >= 0; $i--) {
+//         $revStr = $str[$i];
+//         echo $revStr;
+//     }
+// }
+// reverseWords('hello, world!');
+
+
+
+// !
+// function rW($str) {
+//     $words = explode(' ', $str);
+//     $rStr = '';
+
+//     for ($i = count($words) - 1; $i >= 0; $i--) {
+//         if ($rStr !== '') {
+//             $rStr  .= ' ';
+//         }
+//         $rStr .= $words[$i];
+//     }
+//     echo $rStr;
+// }
+// rW('nikita, eremin!');
+
+
+
