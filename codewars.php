@@ -225,3 +225,21 @@
 
 
 
+// function countsheep($num) {
+//     $result = '';
+
+//     for ($i = 1; $i <= $num; $i++) {
+//         $result = $result . $i . 'sheep...';
+//     }
+//     echo $result;
+// }
+// countsheep(2);
+
+
+
+// function no_space(string $s) {
+//     $pattern = '/\s+/';
+//     $replacement = '';
+//     return  preg_replace($pattern, $replacement, $s);
+// }
+// echo no_space('n i k i t a_');
