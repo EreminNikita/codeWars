@@ -365,3 +365,14 @@
 //     print_r ($res);
 // }
 // differenceInAges([16, 8, 2, 32]);
+
+
+
+// function square_sum($numbers) {
+//     $res = 0;
+//     foreach ($numbers as $num) {
+//         $res += $num ** 2;
+//     }
+//     echo $res;
+// }
+// square_sum([1, 2,]);
