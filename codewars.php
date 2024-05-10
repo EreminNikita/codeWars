@@ -1,5 +1,7 @@
 <?php
 
+// !string
+
 // $array = [1, 2, 3, 4, 'str'];
 // $count = 0;
 // foreach ($array as $value)
@@ -243,3 +245,123 @@
 //     return  preg_replace($pattern, $replacement, $s);
 // }
 // echo no_space('n i k i t a_');
+
+
+
+// function apple($x) {
+//     $s = pow($x, 2);
+//     if ($s > 1000) {
+//         echo 'It\'s hotter than the sun!!';
+//     }
+//     else {
+//         echo 'Help yourself to a honeycomb Yorkie for the glovebox.';
+//     }
+// }
+// apple(4);
+
+
+
+// function isVow(array $a) {
+//     $vowel = ["a", "e", "i", "o", "u"];
+//     $result = [];
+//     for ($i = 0; $i < count($a); $i++) {
+//         if (in_array(chr($a[$i]), $vowel)) {
+//             $result[] = chr($a[$i]);
+//         } else {
+//             $result[] = $a[$i];
+//         }
+//     }
+//     return $result;
+// }
+// var_dump( isVow([1,97,3]));
+
+
+
+// function bonusTime($salary, $bonus) {
+//     if ($bonus === true) {
+//         echo  '"$"' . $salary * '10';
+//     } else {
+//         echo '"$"' . $salary;
+//     }
+// }
+// bonusTime(10, true);
+
+
+
+// function replaceWithVowels(array $numbers) {
+//     $vowels = ['a', 'e', 'i', 'o', 'u'];
+
+//     foreach ($numbers as $key => $num) {
+//         if (in_array($num, [ord('a'), ord('e'), ord('i'), ord('o'), ord('u')])) {
+//             $numbers[$key] = $vowels[array_search($num, [ord('a'), ord('e'), ord('i'), ord('o'), ord('u')])];
+//         }
+//     }
+
+//     var_dump($numbers);
+// }
+// replaceWithVowels([101, 121, 105,1,117]);
+
+
+
+// function DNAtoRNA($dna) {
+//     echo str_replace('T', 'U', $dna);
+// }
+// DNAtoRNA('nikiTa');
+
+
+
+// function mouth_size($animal) {
+//     $animal = strtolower($animal);
+//     return ($animal === 'alligator') ? 'small' : 'wide';
+// }
+// echo mouth_size('alligator');
+
+
+
+// function points(array $games) {
+//     $totalPoints = 0;
+
+//     foreach ($games as $match) {
+//         list($x, $y) = explode(':', $match);
+
+//         $x = (int) $x;
+//         $y = (int) $y;
+
+//         if ($x > $y) {
+//             $totalPoints += 3;
+//         } elseif ($x == $y) {
+//             $totalPoints += 1;
+//         }
+//     }
+//     echo $totalPoints;
+// }
+// points(["4:3"]);
+
+
+
+// function feast($beast, $dish) {
+//     $beast_first = $beast[0];
+//     $beast_last = substr($beast, -1);
+//     $dish_first = $dish[0];
+//     $dish_last = substr($dish, -1);
+
+//     if ($beast_first == $dish_first && $beast_last == $dish_last) {
+//         return true;
+//     } else {
+//         return false;
+//     }
+// }
+// echo feast("great blue heron", "garlic naan");
+// !end string
+
+
+
+// !arrays
+
+// function differenceInAges($ages) {
+//     $oldest = max($ages);
+//     $youngest = min($ages);
+//     $res = [min($ages), max($ages), $oldest-$youngest];
+//     print_r ($res);
+// }
+// differenceInAges([16, 8, 2, 32]);
