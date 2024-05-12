@@ -376,3 +376,50 @@
 //     echo $res;
 // }
 // square_sum([1, 2,]);
+
+
+
+// function findMultiples($integer, $limit) {
+//     $multiples = [];
+//     for ($i = $integer; $i <= $limit; $i = $i + $integer) {
+//         $multiples[] = $i;
+//     }
+//     return $multiples;
+// }
+// var_dump(findMultiples(2, 6));
+
+
+
+// function multiples($x, $n) {
+//     $result = [];
+//     for ($i = 1; $i <= $n; $i++) {
+//         $result[] = $x * $i;
+//     }
+//     return $result;
+// }
+// var_dump(multiples(2, 4));
+
+
+
+// function find_average($array): float {
+//     $sum = array_sum($array);
+//     $count = count($array);
+//     $average = (float)($sum / $count);
+
+//     return $average;
+// }
+// print_r(find_average([1, 2, 3]));
+
+
+
+// function arr2bin($arr) {
+//     $sum = 0;
+//     foreach ($arr as $value) {
+//         if (is_numeric($value)) {
+//             $sum += $value;
+//         }
+//     }
+//     $binarySum = decbin($sum);
+//     return $binarySum;
+// }
+// var_dump(arr2bin([1,2]));
