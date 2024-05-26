@@ -1,3 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+</body>
+
+</html>
 <?php
 
 // !string
@@ -423,3 +438,24 @@
 //     return $binarySum;
 // }
 // var_dump(arr2bin([1,2]));
+
+
+
+// function isIsogram($string) {
+//     $string = strtolower($string);
+//     $seen = [];
+//     for ($i = 0; $i < strlen($string); $i++) {
+//         $char = $string[$i];
+//         if (in_array($char, $seen)) {
+//             return false;
+//         }
+//         $seen[] = $char;
+//     }
+//     return true;
+// }
+// var_dump(isIsogram('niki'));
+// echo '<br>';
+// var_dump(isIsogram('nik'));
+
+
+
