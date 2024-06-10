@@ -459,13 +459,12 @@
 
 
 
-function toNumberArray(array $stringArray) : array {
-    $numberArray = [];
-    foreach ($stringArray as $string) {
-        $numberArray[] = floatval($string);
-    }
-    return $numberArray;
-}
-
-print_r(toNumberArray(['1','2.2']));
-var_dump(toNumberArray(['1','2.2']));
+// function toNumberArray(array $stringArray) : array {
+//     $numberArray = [];
+//     foreach ($stringArray as $string) {
+//         $numberArray[] = floatval($string);
+//     }
+//     return $numberArray;
+// }
+// print_r(toNumberArray(['1','2.2']));
+// var_dump(toNumberArray(['1','2.2']));
