@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>codewars.php</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -468,3 +468,84 @@
 // }
 // print_r(toNumberArray(['1','2.2']));
 // var_dump(toNumberArray(['1','2.2']));
+// !end arrays
+
+
+
+// function draw_stairs($n) {
+//     $stairs = '';
+//     for ($i = 0; $i < $n; $i++) {
+//         $stairs .= str_repeat(' ', $i) . "I";
+//         if ($i < $n - 1) {
+//             $stairs .= "\n"; // Добавляем новую строку, кроме последней
+//         }
+//     }
+//     return $stairs;
+// }
+// echo draw_stairs(3);
+
+
+
+// function odd_numbers_below($n) {
+//     $odd_numbers = [];
+//     for ($i = 1; $i < $n; $i += 2) {
+//         $odd_numbers[] = $i;
+//     }
+//     return $odd_numbers;
+// }
+// print_r(odd_numbers_below(7));
+
+
+
+// function rpc($p1, $p2) {
+//     if ($p1 === $p2) {
+//         return "Draw!";
+//     }
+
+//     $winningCases = [
+//         'rock' => 'scissors',
+//         'scissors' => 'paper',
+//         'paper' => 'rock'
+//     ];
+
+//     if ($winningCases[$p1] === $p2) {
+//         return 'Player 1 won!';
+//     }
+
+//     return 'Player 2 won!';
+// }
+// echo rpc('paper', 'rock');
+
+
+
+// function simpleCalculator($num1, $num2, $operation) {
+//     // Проверка, что первые два аргумента - числа
+//     if (!is_numeric($num1) || !is_numeric($num2) || is_string($num1) || is_string($num2)) {
+//         return "unknown value";
+//     }
+//     // Выполнение операции в зависимости от третьего аргумента
+//     switch ($operation) {
+//         case '+':
+//             return $num1 + $num2;
+//         case '-':
+//             return $num1 - $num2;
+//         case '*':
+//             return $num1 * $num2;
+//         case '/':
+//             // Проверка деления на ноль
+//             if ($num2 == 0) {
+//                 return "unknown value";
+//             }
+//             return $num1 / $num2;
+//         default:
+//             // Если операция не из списка
+//             return "unknown value";
+//     }
+// }
+// // Примеры использования функции
+// echo simpleCalculator(5, 3, '+'); // 8
+// echo simpleCalculator(5, 3, '-'); // 2
+// echo simpleCalculator(5, 3, '*'); // 15
+// echo simpleCalculator(5, 0, '/'); // unknown value (деление на ноль)
+// echo simpleCalculator(5, 3, '^'); // unknown value (неизвестная операция)
+// echo simpleCalculator(5, '2', '+'); // unknown value (второй аргумент не число)
