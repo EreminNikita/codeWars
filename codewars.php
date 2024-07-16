@@ -549,3 +549,25 @@
 // echo simpleCalculator(5, 0, '/'); // unknown value (деление на ноль)
 // echo simpleCalculator(5, 3, '^'); // unknown value (неизвестная операция)
 // echo simpleCalculator(5, '2', '+'); // unknown value (второй аргумент не число)
+
+
+
+// function getGirlsAge($inputString) {
+//     $age = $inputString[0];
+//     return intval($age);
+// }
+// echo getGirlsAge("1 год") . "\n";
+
+
+
+// function arr2bin($arr) {
+//     $total_sum = 0;
+
+//     foreach ($arr as $elem) {
+//         if (is_numeric($elem)) {
+//             $total_sum += (int)$elem;
+//         }
+//     }
+//     return decbin($total_sum);
+// }
+// echo arr2bin([1, 5]) . "\n";
